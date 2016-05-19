@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF10D27C1CEE13FD00EAD9AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10D27B1CEE13FD00EAD9AD /* AppDelegate.swift */; };
+		EF10D27E1CEE13FD00EAD9AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10D27D1CEE13FD00EAD9AD /* ViewController.swift */; };
+		EF10D2811CEE13FD00EAD9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF10D27F1CEE13FD00EAD9AD /* Main.storyboard */; };
+		EF10D2831CEE13FD00EAD9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF10D2821CEE13FD00EAD9AD /* Assets.xcassets */; };
+		EF10D2861CEE13FD00EAD9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF10D2841CEE13FD00EAD9AD /* LaunchScreen.storyboard */; };
+		EF10D2911CEE13FD00EAD9AD /* PagePickerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10D2901CEE13FD00EAD9AD /* PagePickerSampleTests.swift */; };
+		EF10D29C1CEE13FD00EAD9AD /* PagePickerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10D29B1CEE13FD00EAD9AD /* PagePickerSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF10D28D1CEE13FD00EAD9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF10D2701CEE13FD00EAD9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF10D2771CEE13FD00EAD9AD;
+			remoteInfo = PagePickerSample;
+		};
+		EF10D2981CEE13FD00EAD9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF10D2701CEE13FD00EAD9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF10D2771CEE13FD00EAD9AD;
+			remoteInfo = PagePickerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF10D2781CEE13FD00EAD9AD /* PagePickerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagePickerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF10D27B1CEE13FD00EAD9AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF10D27D1CEE13FD00EAD9AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF10D2801CEE13FD00EAD9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF10D2821CEE13FD00EAD9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF10D2851CEE13FD00EAD9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF10D2871CEE13FD00EAD9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF10D28C1CEE13FD00EAD9AD /* PagePickerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagePickerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF10D2901CEE13FD00EAD9AD /* PagePickerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePickerSampleTests.swift; sourceTree = "<group>"; };
+		EF10D2921CEE13FD00EAD9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF10D2971CEE13FD00EAD9AD /* PagePickerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagePickerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF10D29B1CEE13FD00EAD9AD /* PagePickerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePickerSampleUITests.swift; sourceTree = "<group>"; };
+		EF10D29D1CEE13FD00EAD9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF10D2751CEE13FD00EAD9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF10D2891CEE13FD00EAD9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF10D2941CEE13FD00EAD9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF10D26F1CEE13FD00EAD9AD = {
+			isa = PBXGroup;
+			children = (
+				EF10D27A1CEE13FD00EAD9AD /* PagePickerSample */,
+				EF10D28F1CEE13FD00EAD9AD /* PagePickerSampleTests */,
+				EF10D29A1CEE13FD00EAD9AD /* PagePickerSampleUITests */,
+				EF10D2791CEE13FD00EAD9AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF10D2791CEE13FD00EAD9AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF10D2781CEE13FD00EAD9AD /* PagePickerSample.app */,
+				EF10D28C1CEE13FD00EAD9AD /* PagePickerSampleTests.xctest */,
+				EF10D2971CEE13FD00EAD9AD /* PagePickerSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF10D27A1CEE13FD00EAD9AD /* PagePickerSample */ = {
+			isa = PBXGroup;
+			children = (
+				EF10D27B1CEE13FD00EAD9AD /* AppDelegate.swift */,
+				EF10D27D1CEE13FD00EAD9AD /* ViewController.swift */,
+				EF10D27F1CEE13FD00EAD9AD /* Main.storyboard */,
+				EF10D2821CEE13FD00EAD9AD /* Assets.xcassets */,
+				EF10D2841CEE13FD00EAD9AD /* LaunchScreen.storyboard */,
+				EF10D2871CEE13FD00EAD9AD /* Info.plist */,
+			);
+			path = PagePickerSample;
+			sourceTree = "<group>";
+		};
+		EF10D28F1CEE13FD00EAD9AD /* PagePickerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF10D2901CEE13FD00EAD9AD /* PagePickerSampleTests.swift */,
+				EF10D2921CEE13FD00EAD9AD /* Info.plist */,
+			);
+			path = PagePickerSampleTests;
+			sourceTree = "<group>";
+		};
+		EF10D29A1CEE13FD00EAD9AD /* PagePickerSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF10D29B1CEE13FD00EAD9AD /* PagePickerSampleUITests.swift */,
+				EF10D29D1CEE13FD00EAD9AD /* Info.plist */,
+			);
+			path = PagePickerSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF10D2771CEE13FD00EAD9AD /* PagePickerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF10D2A01CEE13FD00EAD9AD /* Build configuration list for PBXNativeTarget "PagePickerSample" */;
+			buildPhases = (
+				EF10D2741CEE13FD00EAD9AD /* Sources */,
+				EF10D2751CEE13FD00EAD9AD /* Frameworks */,
+				EF10D2761CEE13FD00EAD9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagePickerSample;
+			productName = PagePickerSample;
+			productReference = EF10D2781CEE13FD00EAD9AD /* PagePickerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF10D28B1CEE13FD00EAD9AD /* PagePickerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF10D2A31CEE13FD00EAD9AD /* Build configuration list for PBXNativeTarget "PagePickerSampleTests" */;
+			buildPhases = (
+				EF10D2881CEE13FD00EAD9AD /* Sources */,
+				EF10D2891CEE13FD00EAD9AD /* Frameworks */,
+				EF10D28A1CEE13FD00EAD9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF10D28E1CEE13FD00EAD9AD /* PBXTargetDependency */,
+			);
+			name = PagePickerSampleTests;
+			productName = PagePickerSampleTests;
+			productReference = EF10D28C1CEE13FD00EAD9AD /* PagePickerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF10D2961CEE13FD00EAD9AD /* PagePickerSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF10D2A61CEE13FD00EAD9AD /* Build configuration list for PBXNativeTarget "PagePickerSampleUITests" */;
+			buildPhases = (
+				EF10D2931CEE13FD00EAD9AD /* Sources */,
+				EF10D2941CEE13FD00EAD9AD /* Frameworks */,
+				EF10D2951CEE13FD00EAD9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF10D2991CEE13FD00EAD9AD /* PBXTargetDependency */,
+			);
+			name = PagePickerSampleUITests;
+			productName = PagePickerSampleUITests;
+			productReference = EF10D2971CEE13FD00EAD9AD /* PagePickerSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF10D2701CEE13FD00EAD9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eisuke Sato";
+				TargetAttributes = {
+					EF10D2771CEE13FD00EAD9AD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF10D28B1CEE13FD00EAD9AD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF10D2771CEE13FD00EAD9AD;
+					};
+					EF10D2961CEE13FD00EAD9AD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF10D2771CEE13FD00EAD9AD;
+					};
+				};
+			};
+			buildConfigurationList = EF10D2731CEE13FD00EAD9AD /* Build configuration list for PBXProject "PagePickerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF10D26F1CEE13FD00EAD9AD;
+			productRefGroup = EF10D2791CEE13FD00EAD9AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF10D2771CEE13FD00EAD9AD /* PagePickerSample */,
+				EF10D28B1CEE13FD00EAD9AD /* PagePickerSampleTests */,
+				EF10D2961CEE13FD00EAD9AD /* PagePickerSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF10D2761CEE13FD00EAD9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF10D2861CEE13FD00EAD9AD /* LaunchScreen.storyboard in Resources */,
+				EF10D2831CEE13FD00EAD9AD /* Assets.xcassets in Resources */,
+				EF10D2811CEE13FD00EAD9AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF10D28A1CEE13FD00EAD9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF10D2951CEE13FD00EAD9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF10D2741CEE13FD00EAD9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF10D27E1CEE13FD00EAD9AD /* ViewController.swift in Sources */,
+				EF10D27C1CEE13FD00EAD9AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF10D2881CEE13FD00EAD9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF10D2911CEE13FD00EAD9AD /* PagePickerSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF10D2931CEE13FD00EAD9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF10D29C1CEE13FD00EAD9AD /* PagePickerSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF10D28E1CEE13FD00EAD9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF10D2771CEE13FD00EAD9AD /* PagePickerSample */;
+			targetProxy = EF10D28D1CEE13FD00EAD9AD /* PBXContainerItemProxy */;
+		};
+		EF10D2991CEE13FD00EAD9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF10D2771CEE13FD00EAD9AD /* PagePickerSample */;
+			targetProxy = EF10D2981CEE13FD00EAD9AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF10D27F1CEE13FD00EAD9AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF10D2801CEE13FD00EAD9AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF10D2841CEE13FD00EAD9AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF10D2851CEE13FD00EAD9AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF10D29E1CEE13FD00EAD9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF10D29F1CEE13FD00EAD9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF10D2A11CEE13FD00EAD9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PagePickerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecc.PagePickerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF10D2A21CEE13FD00EAD9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PagePickerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecc.PagePickerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF10D2A41CEE13FD00EAD9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PagePickerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecc.PagePickerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagePickerSample.app/PagePickerSample";
+			};
+			name = Debug;
+		};
+		EF10D2A51CEE13FD00EAD9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PagePickerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecc.PagePickerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagePickerSample.app/PagePickerSample";
+			};
+			name = Release;
+		};
+		EF10D2A71CEE13FD00EAD9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PagePickerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecc.PagePickerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PagePickerSample;
+			};
+			name = Debug;
+		};
+		EF10D2A81CEE13FD00EAD9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PagePickerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecc.PagePickerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PagePickerSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF10D2731CEE13FD00EAD9AD /* Build configuration list for PBXProject "PagePickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF10D29E1CEE13FD00EAD9AD /* Debug */,
+				EF10D29F1CEE13FD00EAD9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF10D2A01CEE13FD00EAD9AD /* Build configuration list for PBXNativeTarget "PagePickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF10D2A11CEE13FD00EAD9AD /* Debug */,
+				EF10D2A21CEE13FD00EAD9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF10D2A31CEE13FD00EAD9AD /* Build configuration list for PBXNativeTarget "PagePickerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF10D2A41CEE13FD00EAD9AD /* Debug */,
+				EF10D2A51CEE13FD00EAD9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF10D2A61CEE13FD00EAD9AD /* Build configuration list for PBXNativeTarget "PagePickerSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF10D2A71CEE13FD00EAD9AD /* Debug */,
+				EF10D2A81CEE13FD00EAD9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF10D2701CEE13FD00EAD9AD /* Project object */;
+}
