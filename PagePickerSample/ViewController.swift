@@ -10,16 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    var contentView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        contentView = UIView(frame: CGRect(x: 154, y: 0, width: 440, height: 44))
+        contentView.backgroundColor = UIColor.cyanColor()
+        scrollView.addSubview(contentView)
+        scrollView.contentSize = CGSize(width: contentView.frame.width + 308, height: contentView.frame.height)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
